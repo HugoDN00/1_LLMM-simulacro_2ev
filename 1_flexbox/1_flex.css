@@ -4,3 +4,86 @@
     font-family: "Courier New", Courier, monospace;
     box-sizing: border-box;
 }
+.general{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 14px;
+    padding: 14px;
+}
+.cont1y2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 14px;
+}
+.c{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 10px;
+}
+#ca1{
+    height: 50%;
+}
+#ca2{
+    height: 50%;
+}
+#ca3{
+    height: 24%;
+}
+#ca4{
+    height: 24%;
+}
+@media screen and (min-width:700px) {
+    .general{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 14px;
+        padding: 14px;
+    }
+    .cont1y2{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+    }
+    .c{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: gray;
+        padding: 10px;
+    }
+    #ca1{
+        height: 100%;
+    }
+    #ca2{
+        height: 100%;
+    }
+    #ca3{
+        height: 100%;
+        width: 50%;
+        align-self: stretch;
+    }
+    #ca4{
+        height: 24%;
+        width: 50%;
+        align-self: flex-start;
+    }
+}
